@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar Href Location</title>
+</head>
+<body>
+	<p id="href"></p>
+	<button onclick="href_loc()">Href Location</button>
+
+	<script type="text/javascript">
+		function href_loc(){
+			var x = location.href;
+			document.getElementById("href").innerHTML = x;
+		}
+	</script>
+</body>
+</html>
